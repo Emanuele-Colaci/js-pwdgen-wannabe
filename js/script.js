@@ -1,15 +1,17 @@
 // NOME UTENTE
-let nome = prompt ('Nome');
+let nameUser = prompt ('Nome');
 
 //COGNOME UTENTE
-let cognome = prompt ('Cognome');
+let surname = prompt ('Cognome');
 
 //COLORE PREFERITO UTENTE
-let colore = prompt ('Colore preferito');
+let color = prompt ('Colore preferito');
 
+//NUMERO 21
+const number = '21'
 
 //CONSOLE DEL NOME COGNOME COLORE
-console.log (`${nome} ${cognome} ${colore}`);
+console.log (`${nameUser} ${surname} ${color} ${number}`);
 
 //VISIONE ELEMENTO PAGINA
-document.getElementById('nome-cognome-colore').innerHTML = (nome + cognome + colore + 21);
+document.getElementById('name-surname-color').innerHTML = (nameUser + surname + color + number);
