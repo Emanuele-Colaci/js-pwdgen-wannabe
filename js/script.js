@@ -12,4 +12,4 @@ let colore = prompt ('Colore preferito');
 console.log (`${nome} ${cognome} ${colore}`);
 
 //VISIONE ELEMENTO PAGINA
-document.getElementById('nome').innerHTML = (nome + cognome + colore + 21);
+document.getElementById('nome-cognome-colore').innerHTML = (nome + cognome + colore + 21);
